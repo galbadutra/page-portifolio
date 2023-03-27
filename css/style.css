@@ -22,6 +22,7 @@ a {
 
 }
 
+
 a:before {
     content: "";
     display: inline-flex;
@@ -31,13 +32,32 @@ a:before {
     background-color: #7C5E99;
 }
 
+a:before:hover {
+    background-color: rebeccapurple;
+}
 
+button {
+    font-family: "Fira Code", sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    text-decoration: none;
+    cursor: pointer;
+
+
+}
 
 #button {
     display: inline-block;
-    padding: 17px 20px 17px 0px;
+    padding: 17px 20px;
     box-shadow: 5px 5px 0px #000000;
     background-color: #7C5E99;
     color: #FFF;
     margin-right: 0;
+    transition: 0.6s;
+}
+
+#button:hover {
+    background-color: rebeccapurple;
+    border-radius: 20px;
+    transform: scale(1.1);
 }
