@@ -1,0 +1,23 @@
+.banner {
+    box-sizing: border-box;
+    background-image: url(../../img/image-fundo.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    border-bottom: 10px solid #000;
+    padding-top: 116px;
+    padding-left: 91px;
+    height: 800px;
+
+}
+
+.banner .wrapper {
+    display: block;
+    width: 635px;
+}
+
+.banner .position-button {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 38px;
+
+}
