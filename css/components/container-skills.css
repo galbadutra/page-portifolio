@@ -1,0 +1,19 @@
+.container-skills {
+    width: 960px;
+    display: flex;
+}
+
+.container-skills .skill {
+    display: inline-flex;
+    flex-grow: 2;
+    width: 472px;
+    height: 90px;
+    display: flex;
+}
+
+.container-skills .skill-level {
+    width: 362px;
+    height: 40px;
+    background-color: blueviolet;
+    border: 5px solid black;
+}

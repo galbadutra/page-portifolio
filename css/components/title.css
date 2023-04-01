@@ -6,3 +6,8 @@
     line-height: 40px;
     text-shadow: 4px 4px 0px #000000;
 }
+
+.title.-second {
+    text-shadow: none;
+    color: #FFF;
+}

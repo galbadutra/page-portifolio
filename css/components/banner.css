@@ -6,18 +6,16 @@
     border-bottom: 10px solid #000;
     padding-top: 116px;
     padding-left: 91px;
-    height: 800px;
-
+    height: 740px;
 }
 
 .banner .wrapper {
     display: block;
-    width: 635px;
+    width: 520px;
 }
 
 .banner .position-button {
     display: flex;
     justify-content: space-around;
     margin-top: 38px;
-
 }

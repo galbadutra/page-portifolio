@@ -1,0 +1,15 @@
+.banner-skills {
+    box-sizing: border-box;
+    background-color: #62C370;
+    height: 730px;
+    border-bottom: 10px solid #7C5E99;
+    text-align: center;
+}
+
+.banner-skills h1 {
+    margin-bottom: 60px;
+}
+
+li {
+    list-style: none;
+}
