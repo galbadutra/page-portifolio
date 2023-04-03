@@ -1,4 +1,4 @@
-.title {
+.main-title {
     color: #7C5E99;
     font-family: "Press Start 2P";
     font-weight: 400;
@@ -7,7 +7,7 @@
     text-shadow: 4px 4px 0px #000000;
 }
 
-.title.-second {
+.main-title.-second {
     text-shadow: none;
     color: #FFF;
 }

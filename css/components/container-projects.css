@@ -1,0 +1,27 @@
+.container-projects {
+    display: flex;
+    height: 280px;
+    margin: 50px auto 0px auto;
+    justify-content: space-around;
+}
+
+.container-projects .logo {
+    width: 230px;
+}
+
+.container-projects .card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #7C5E99;
+    box-shadow: 10px 10px 0px #FFF;
+    width: 280px;
+}
+
+.container-projects .card.-second {
+    background-color: #4C5B84;
+}
+
+.container-projects .card.-last {
+    background-color: #62C370;
+}

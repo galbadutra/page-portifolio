@@ -13,14 +13,17 @@
     <link rel="stylesheet" href="./css/components/header.css">
     <link rel="stylesheet" href="./css/components/action.css">
     <link rel="stylesheet" href="./css/components/button.css">
-    <link rel="stylesheet" href="./css/components/banner.css">
+    <link rel="stylesheet" href="./css/components/section-banner.css">
     <link rel="stylesheet" href="./css/components/box-title.css">
-    <link rel="stylesheet" href="./css/components/title.css">
+    <link rel="stylesheet" href="./css/components/main-title.css">
     <link rel="stylesheet" href="./css/components/subtitle.css">
-    <link rel="stylesheet" href="./css/components/banner-skills.css">
+    <link rel="stylesheet" href="./css/components/section-skills.css">
     <link rel="stylesheet" href="./css/components/container-skills.css">
-    <link rel="stylesheet" href="./css/components/skill.css">
-    <link rel="stylesheet" href="./css/components/skill-level.css">
+    <link rel="stylesheet" href="./css/components/skill-tec.css">
+    <link rel="stylesheet" href="./css/components/progress-bar.css">
+    <link rel="stylesheet" href="./css/components/section-projects.css">
+    <link rel="stylesheet" href="./css/components/container-projects.css">
+
     <title>Portfolio</title>
 </head>
 
@@ -37,10 +40,10 @@
         </nav>
     </header>
 
-    <section class="banner">
+    <section class="section-banner">
         <div class="wrapper">
             <div class="box-title">
-                <h1 class="title">Galba Dutra</h1>
+                <h1 class="main-title">Galba Dutra</h1>
                 <h2 class="subtitle">Developer</h2>
             </div>
             <div class="position-button">
@@ -50,49 +53,83 @@
         </div>
     </section>
 
-    <section class="banner-skills">
-        <h2 class="title -second">Skills</h2>
+    <section class="section-skills">
+        <h2 class="main-title -second">Skills</h2>
         <ul class="container-skills">
-            <li class="skill">
-                <img src="./img/ico_html5.png" alt="">
-                <p>HTML</p>
-                <div class="skill-level"></div>
+            <li class="skill-tec">
+                <img class="icon" src="./img/ico_html5.png" alt="">
+                <div class="right">
+                    <h3 class="title">HTML</h3>
+                    <progress class="progress-bar" max="100" value="70">70%</progress>
+                </div>
             </li>
-            <li class="skill">
-                <img src="./img/ico_css3.png" alt="">
-                <p>CSS</p>
-                <div class="skill-level"></div>
+            <li class="skill-tec">
+                <img class="icon" src="./img/ico_css3.png" alt="">
+                <div class="right">
+                    <h3 class="title">CSS3</h3>
+                    <progress class="progress-bar" max="100" value="70">70%</progress>
+                </div>
             </li>
-            <li class="skill">
-                <img src="./img/ico_nodejs.png" alt="">
-                <p>NODEJS</p>
-                <div class="skill-level"></div>
+            <li class="skill-tec">
+                <img class="icon" src="./img/ico_nodejs.png" alt="">
+                <div class="right">
+                    <h3 class="title">NodeJS</h3>
+                    <progress class="progress-bar" max="100" value="70">70%</progress>
+                </div>
             </li>
-            <li class="skill">
-                <img src="./img/ico_tdd.png" alt="">
-                <p>TDD</p>
-                <div class="skill-level"></div>
+            <li class="skill-tec">
+                <img class="icon" src="./img/ico_tdd.png" alt="">
+                <div class="right">
+                    <h3 class="title">TDD</h3>
+                    <progress class="progress-bar" max="100" value="70">70%</progress>
+                </div>
             </li>
-            <li class="skill">
-                <img src="./img/ico_html5.png" alt="">
-                <div class="skill-level"></div>
+            <li class="skill-tec">
+                <img class="icon" src="./img/ico_js.png" alt="">
+                <div class="right">
+                    <h3 class="title">Javascript</h3>
+                    <progress class="progress-bar" max="100" value="70">70%</progress>
+                </div>
             </li>
-            <li class="skill">
-                <img src="./img/ico_html5.png" alt="">
-                <div class="skill-level"></div>
+            <li class="skill-tec">
+                <img class="icon" src="./img/ico_restapi.png" alt="">
+                <div class="right">
+                    <h3 class="title">RestAPI</h3>
+                    <progress class="progress-bar" max="100" value="70">70%</progress>
+                </div>
             </li>
-            <li class="skill">
-                <img src="./img/ico_html5.png" alt="">
-                <div class="skill-level"></div>
+            <li class="skill-tec">
+                <img class="icon" src="./img/ico_ux.png" alt="">
+                <div class="right">
+                    <h3 class="title">UX</h3>
+                    <progress class="progress-bar" max="100" value="70">70%</progress>
+                </div>
             </li>
-            <li class="skill">
-                <img src="./img/ico_html5.png" alt="">
-                <div class="skill-level"></div>
-            </li>
+            <li class="skill-tec">
+                <img class="icon" src="./img/ico_react.png" alt="">
+                <div class="right">
+                    <h3 class="title">REACT</h3>
+                    <progress class="progress-bar" max="100" value="70">70%</progress>
+                </div>
         </ul>
 
     </section>
 
+    <section class="section-projects">
+        <h2 class="main-title -second">Projetos</h2>
+
+        <div class="container-projects">
+            <figure class="card">
+                <img class="logo" src="img/logo-firedlabs.png" alt="">
+            </figure>
+            <figure class="card -second">
+                <img class="logo" src="img/logo-collabcode.png" alt="">
+            </figure>
+            <figure class="card -last">
+                <img class="logo" src="img/coding_grande.png" alt="">
+            </figure>
+        </div>
+    </section>
 </body>
 
 </html>

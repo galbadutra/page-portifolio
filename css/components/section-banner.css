@@ -1,4 +1,4 @@
-.banner {
+.section-banner {
     box-sizing: border-box;
     background-image: url(../../img/image-fundo.jpg);
     background-repeat: no-repeat;
@@ -9,12 +9,12 @@
     height: 740px;
 }
 
-.banner .wrapper {
+.section-banner .wrapper {
     display: block;
     width: 520px;
 }
 
-.banner .position-button {
+.section-banner .position-button {
     display: flex;
     justify-content: space-around;
     margin-top: 38px;

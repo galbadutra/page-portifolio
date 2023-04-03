@@ -1,19 +1,20 @@
 .container-skills {
-    width: 960px;
     display: flex;
+    flex-wrap: wrap;
+    max-width: 960px;
+    margin-right: auto;
+    margin-left: auto;
+
 }
 
-.container-skills .skill {
-    display: inline-flex;
-    flex-grow: 2;
-    width: 472px;
-    height: 90px;
-    display: flex;
+.container-skills .skill-tec {
+    width: 380px;
 }
 
-.container-skills .skill-level {
-    width: 362px;
-    height: 40px;
-    background-color: blueviolet;
-    border: 5px solid black;
+.container-skills .skill-tec:nth-child(odd) {
+    margin-right: 100px;
+}
+
+.container-skills .progress-bar {
+    width: 320px;
 }
