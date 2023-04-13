@@ -1,7 +1,6 @@
 .container-projects {
     display: flex;
-    height: 280px;
-    margin: 50px auto 0px auto;
+    margin-top: 50px;
     justify-content: space-around;
 }
 
@@ -24,4 +23,5 @@
 
 .container-projects .card.-last {
     background-color: #62C370;
+    box-shadow: none;
 }

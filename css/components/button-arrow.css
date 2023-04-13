@@ -1,0 +1,37 @@
+.button-arrow {
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    background-color: #7C5E99;
+    box-shadow: 5px 5px 0px #000;
+}
+
+.button-arrow .content {
+    display: none;
+}
+
+.button-arrow.-left::before {
+    content: '';
+    display: block;
+    box-sizing: border-box;
+    width: 20px;
+    height: 20px;
+    border: 15px solid transparent;
+    border-right: 18px solid #FFF;
+
+}
+
+.button-arrow.-right::before {
+    content: '';
+    display: block;
+    box-sizing: border-box;
+    margin-left: 20px;
+    width: 20px;
+    height: 20px;
+    border: 15px solid transparent;
+    border-left: 18px solid #FFF;
+}
+
+.button-arrow.-right{
+    box-shadow: -5px 5px 0px #000;
+}

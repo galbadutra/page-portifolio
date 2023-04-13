@@ -1,0 +1,36 @@
+.node-enterprise {
+    display: inline-flex;
+    position: relative;
+    flex-direction: column;
+    align-items: center;
+}
+
+.node-enterprise::before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 48px;
+    height: 40px;
+    border: 2.5px dashed #000;
+    transform: rotate(180deg);
+}
+
+.node-enterprise .logo {
+    display: flex;
+    align-items: center;
+    height: 140px;
+
+    border: 5px solid #000;
+}
+
+.node-enterprise .logo.-boxYellow {
+    padding-right: 15px;
+    padding-left: 15px;
+    background-color: #CEB02A;
+}
+
+.node-enterprise .logo.-boxPurple {
+    padding-right: 15px;
+    padding-left: 15px;
+    background-color: #7C5E99;
+}

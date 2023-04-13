@@ -1,0 +1,10 @@
+.text-description {
+    font-family: Fira Code;
+    font-size: 25px;
+    font-weight: 300px;
+    line-height: 1;
+    color: #FFF;
+    text-align: center;
+    padding-left: 50px;
+    padding-right: 50px;
+}

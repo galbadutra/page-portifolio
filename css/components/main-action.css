@@ -1,4 +1,4 @@
-.action {
+.main-action {
     display: inline-flex;
     align-items: center;
     font-weight: 500;
@@ -10,7 +10,7 @@
 }
 
 
-.action::before {
+.main-action::before {
     content: "";
     display: inline-flex;
     width: 10px;
@@ -19,6 +19,6 @@
     background-color: #7C5E99;
 }
 
-.action:before:hover {
+.main-action:before:hover {
     background-color: rebeccapurple;
 }

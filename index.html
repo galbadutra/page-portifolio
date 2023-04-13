@@ -10,45 +10,53 @@
     <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;500&family=Press+Start+2P&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="./css/reset.css">
-    <link rel="stylesheet" href="./css/components/header.css">
-    <link rel="stylesheet" href="./css/components/action.css">
-    <link rel="stylesheet" href="./css/components/button.css">
+    <link rel="stylesheet" href="./css/components/main-header.css">
+    <link rel="stylesheet" href="./css/components/main-action.css">
+    <link rel="stylesheet" href="./css/components/main-button.css">
     <link rel="stylesheet" href="./css/components/section-banner.css">
-    <link rel="stylesheet" href="./css/components/box-title.css">
+    <link rel="stylesheet" href="./css/components/box-banner.css">
     <link rel="stylesheet" href="./css/components/main-title.css">
-    <link rel="stylesheet" href="./css/components/subtitle.css">
+    <link rel="stylesheet" href="./css/components/main-subtitle.css">
     <link rel="stylesheet" href="./css/components/section-skills.css">
     <link rel="stylesheet" href="./css/components/container-skills.css">
     <link rel="stylesheet" href="./css/components/skill-tec.css">
     <link rel="stylesheet" href="./css/components/progress-bar.css">
     <link rel="stylesheet" href="./css/components/section-projects.css">
     <link rel="stylesheet" href="./css/components/container-projects.css">
+    <link rel="stylesheet" href="./css/components/section-description.css">
+    <link rel="stylesheet" href="./css/components/text-description.css">
+    <link rel="stylesheet" href="./css/components/line-time.css">
+    <link rel="stylesheet" href="./css/components/empresas.css">
+    <link rel="stylesheet" href="./css/components/button-arrow.css">
+    <link rel="stylesheet" href="./css/components/container-enterprise.css">
+    <link rel="stylesheet" href="./css/components/node-enterprise.css">
+
 
     <title>Portfolio</title>
 </head>
 
 <body>
-    <header class="header">
+    <header class="main-header">
         <img class="logo" src="./img/coding.png" alt="">
 
         <nav>
-            <a class="action" href=""> Skills</a>
-            <a class="action" href=""> Projetos</a>
-            <a class="action" href=""> Sobre</a>
-            <a class="action" href=""> Contatos</a>
-            <button class="button">Download CV</button>
+            <a class="main-action" href=""> Skills</a>
+            <a class="main-action" href=""> Projetos</a>
+            <a class="main-action" href=""> Sobre</a>
+            <a class="main-action" href=""> Contatos</a>
+            <button class="main-button">Download CV</button>
         </nav>
     </header>
 
     <section class="section-banner">
         <div class="wrapper">
-            <div class="box-title">
+            <div class="box-banner">
                 <h1 class="main-title">Galba Dutra</h1>
-                <h2 class="subtitle">Developer</h2>
+                <h2 class="main-subtitle">Developer</h2>
             </div>
             <div class="position-button">
-                <button class="button">Download CV</button>
-                <button class="button">Contatos</button>
+                <button class="main-button">Download CV</button>
+                <button class="main-button">Contatos</button>
             </div>
         </div>
     </section>
@@ -130,6 +138,75 @@
             </figure>
         </div>
     </section>
-</body>
 
+    <section class="section-description">
+
+        <h2 class="main-title -second">Sobre</h2>
+
+        <div class="line-time">
+
+            <button class="button-arrow -left"><span class="content">Voltar</span></button>
+
+            <div class="container-enterprise">
+                <div class="elements">
+                    <figure class="node-enterprise">
+                        <h2 class="main-title -enterprise">2016</h2>
+                        <div class="logo -boxYellow">
+                            <img src="img/logo-locaweb.png" alt="">
+                        </div>
+                    </figure>
+
+                    <figure class="node-enterprise">
+                        <h1 class="main-title -enterprise">2017</h1>
+                        <div class="logo">
+                            <img src="img/logo-caelum.png" alt="">
+                        </div>
+                    </figure>
+
+                    <figure class="node-enterprise">
+                        <h1 class="main-title -enterprise">2018</h1>
+                        <div class="logo -boxPurple">
+                            <img src="img/logo-getninjas.png" alt="">
+                        </div>
+                    </figure>
+
+                    <figure class="node-enterprise">
+                        <h1 class="main-title -enterprise">2019</h1>
+                        <div class="logo">
+                            <img src="img/logo-caelum.png" alt="">
+                        </div>
+                    </figure>
+
+                    <figure class="node-enterprise">
+                        <h1 class="main-title -enterprise">2020</h1>
+                        <div class="logo -boxYellow">
+                            <img src="img/logo-impulso.png" alt="">
+                        </div>
+                    </figure>
+
+                    <figure class="node-enterprise">
+                        <h1 class="main-title -enterprise">2021</h1>
+                        <div class="logo -boxPurple">
+                            <img src="img/logo-collabcode.png" alt="">
+                        </div>
+                    </figure>
+                </div>
+            </div>
+                
+            <button class="button-arrow -right"><span class="content">Avançar</span></button>
+
+
+        </div>
+
+        <p class="text-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur assumenda itaque
+            ipsum mollitia
+            accusantium, id perspiciatis est nobis facilis explicabo reiciendis distinctio iure autem aspernatur rem
+            debitis cupiditate architecto adipisci.lorem Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+            Libero quia incidunt obcaecati consequuntur a commodi, enim corporis perspiciatis quidem in, natus
+            reiciendis placeat quam quaerat, illum accusantium asperiores provident rem. Lorem ipsum dolor sit amet
+            consectetur adipisicing elit. Tempore, architecto illo. Vitae, itaque cumque nesciunt at similique, quod
+            dolor perferendis blanditiis ipsam nisi fugiat voluptatibus eius, unde atque laboriosam minus.</p>
+    </section>
+    <script src="js/components/button.js"></script>
+</body>
 </html>

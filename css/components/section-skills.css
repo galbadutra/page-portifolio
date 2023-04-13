@@ -2,8 +2,6 @@
     box-sizing: border-box;
     background-color: #62C370;
     padding: 50px 100px 100px 100px;
-    /* padding-top: 50px;
-    padding-bottom: 100px; */
     height: 730px;
     border-bottom: 10px solid #7C5E99;
     text-align: center;
@@ -11,8 +9,4 @@
 
 .section-skills h2 {
     margin-bottom: 60px;
-}
-
-li {
-    list-style: none;
 }
