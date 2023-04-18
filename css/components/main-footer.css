@@ -1,0 +1,15 @@
+.main-footer{
+    display: flex;
+    justify-content: center;
+    background-color: #000;
+    align-items: center;
+    padding-top: 28px;
+    padding-bottom: 28px;
+}
+
+
+.main-footer .sociais{
+    display: flex;
+    width: 215px;
+    justify-content: space-between;
+}

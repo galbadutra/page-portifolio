@@ -30,8 +30,10 @@
     <link rel="stylesheet" href="./css/components/button-arrow.css">
     <link rel="stylesheet" href="./css/components/container-enterprise.css">
     <link rel="stylesheet" href="./css/components/node-enterprise.css">
-
-
+    <link rel="stylesheet" href="./css/components/main-contatos.css">
+    <link rel="stylesheet" href="./css/components/main-formulario.css">
+    <link rel="stylesheet" href="./css/components/main-footer.css">
+    <link rel="stylesheet" href="./css/components/main-input.css">
     <title>Portfolio</title>
 </head>
 
@@ -199,14 +201,26 @@
         </div>
 
         <p class="text-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur assumenda itaque
-            ipsum mollitia
-            accusantium, id perspiciatis est nobis facilis explicabo reiciendis distinctio iure autem aspernatur rem
-            debitis cupiditate architecto adipisci.lorem Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-            Libero quia incidunt obcaecati consequuntur a commodi, enim corporis perspiciatis quidem in, natus
-            reiciendis placeat quam quaerat, illum accusantium asperiores provident rem. Lorem ipsum dolor sit amet
-            consectetur adipisicing elit. Tempore, architecto illo. Vitae, itaque cumque nesciunt at similique, quod
-            dolor perferendis blanditiis ipsam nisi fugiat voluptatibus eius, unde atque laboriosam minus.</p>
+            ipsum mollitia id perspiciatis est nobis facilis explicabo reiciendis distinctio iure autem aspernatur rem
+            debitis cupiditate architecto adipisci.lorem Lorem ipsum dolor, sit amet consectetur adipisicing eli.</p>
     </section>
+
+    <form action="enviar/" class="main-contatos">
+        <Legend class="main-title -second">Contatos</Legend>
+            <label class="main-formulario" for="name">Nome <input type="text" name="name" id="name" class="main-input" minlength="1" required></label>
+            <label  class="main-formulario" for="email">Email <input type="email" name="email" id="email" class="main-input" required></label>
+            <label class="main-formulario" for="mensagem">Mensagem <textarea name="" id="mensagem" cols="30" rows="10" class="main-input -last" required></textarea></label>
+            <label  for="submit"><input type="submit" name="Enviar" id="submit" class="main-button -enviar" value="Enviar"></label>
+        </form>
+
+    <footer class="main-footer">
+        <div class="sociais">
+            <a href="http://" target="_blank" rel="noopener noreferrer"><img  src="img/icon-twitter.png" alt="" srcset=""></a>
+            <a href="http://" target="_blank" rel="noopener noreferrer"><img  src="img/icon-youtube.png" alt="" srcset=""></a>
+            <a href="http://" target="_blank" rel="noopener noreferrer"><img  src="img/icon-discord.png" alt="" srcset=""></a>
+        </div>
+    </footer>
+
     <script src="js/components/button.js"></script>
 </body>
 </html>

@@ -17,3 +17,9 @@
     border-radius: 20px;
     transform: scale(1.1);
 }
+
+.main-button.-enviar{
+    transform: none;
+    border-radius: 0px;
+    width: 100%;
+}

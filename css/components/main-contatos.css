@@ -1,0 +1,9 @@
+.main-contatos{
+    background-color: #3A4042;
+    padding: 50px 40px;
+    box-sizing: border-box;
+}
+
+.main-contatos legend{
+    padding-bottom: 50px;
+}
